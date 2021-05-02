@@ -6,6 +6,7 @@ using CanviaTest.Data.Contratos;
 using CanviaTest.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace CanviaTest.WebApi.Controller
 {
@@ -14,11 +15,13 @@ namespace CanviaTest.WebApi.Controller
     public class CargosController : ControllerBase
     {
         private ICargoRepositorio _cargoRepositorio;
+        private readonly ILogger<Cargo> _logger;
 
-        public CargosController(ICargoRepositorio cargoRepositorio)
+        public CargosController(ICargoRepositorio cargoRepositorio, ILogger<Cargo> logger)
         {
             _cargoRepositorio = cargoRepositorio;
-        }
+            _logger = logger;
+    }
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -51,7 +54,7 @@ namespace CanviaTest.WebApi.Controller
             }
             catch (Exception ex)
             {
-                //_logger.LogError($"Error en {nameof(Post)}: {ex.Message}");
+                _logger.LogError($"Error en {nameof(Post)}: {ex.Message}");
                 return BadRequest();
             }
         }
@@ -91,7 +94,7 @@ namespace CanviaTest.WebApi.Controller
             }
             catch (Exception ex)
             {
-                //_logger.LogError($"Error en {nameof(Delete)}: {ex.Message}");
+                _logger.LogError($"Error en {nameof(Delete)}: {ex.Message}");
                 return BadRequest();
             }
         }

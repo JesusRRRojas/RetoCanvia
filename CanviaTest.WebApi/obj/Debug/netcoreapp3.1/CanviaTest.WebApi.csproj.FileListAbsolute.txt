@@ -8,8 +8,6 @@ C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\obj\Debug\netcoreapp3
 C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\obj\Debug\netcoreapp3.1\CanviaTest.WebApi.RazorTargetAssemblyInfo.cache
 C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\obj\Debug\netcoreapp3.1\staticwebassets\CanviaTest.WebApi.StaticWebAssets.Manifest.cache
 C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\obj\Debug\netcoreapp3.1\staticwebassets\CanviaTest.WebApi.StaticWebAssets.xml
-C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\obj\Debug\netcoreapp3.1\CanviaTest.WebApi.csproj.CoreCompileInputs.cache
-C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\obj\Debug\netcoreapp3.1\CanviaTest.WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\bin\Debug\netcoreapp3.1\CanviaTest.WebApi.deps.json
 C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\bin\Debug\netcoreapp3.1\CanviaTest.WebApi.runtimeconfig.json
 C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\bin\Debug\netcoreapp3.1\CanviaTest.WebApi.runtimeconfig.dev.json
@@ -47,3 +45,8 @@ C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\obj\Debug\netcoreapp3
 C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\obj\Debug\netcoreapp3.1\CanviaTest.WebApi.dll
 C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\obj\Debug\netcoreapp3.1\CanviaTest.WebApi.pdb
 C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\obj\Debug\netcoreapp3.1\CanviaTest.WebApi.genruntimeconfig.cache
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.WebApi\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuration.dll

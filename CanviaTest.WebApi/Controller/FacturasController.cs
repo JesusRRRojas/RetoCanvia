@@ -6,6 +6,7 @@ using CanviaTest.Data.Contratos;
 using CanviaTest.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace CanviaTest.WebApi.Controller
 {
@@ -14,10 +15,12 @@ namespace CanviaTest.WebApi.Controller
     public class FacturasController : ControllerBase
     {
         private IFacturaRepositorio _facturaRepositorio;
+        private readonly ILogger<Factura> _logger;
 
-        public FacturasController(IFacturaRepositorio facturaRepositorio)
+        public FacturasController(IFacturaRepositorio facturaRepositorio, ILogger<Factura> logger)
         {
             _facturaRepositorio = facturaRepositorio;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -52,7 +55,7 @@ namespace CanviaTest.WebApi.Controller
             }
             catch (Exception ex)
             {
-                //_logger.LogError($"Error en {nameof(Post)}: {ex.Message}");
+                _logger.LogError($"Error en {nameof(Post)}: {ex.Message}");
                 return BadRequest();
             }
         }
@@ -91,7 +94,7 @@ namespace CanviaTest.WebApi.Controller
             }
             catch (Exception ex)
             {
-                //_logger.LogError($"Error en {nameof(Delete)}: {ex.Message}");
+                _logger.LogError($"Error en {nameof(Delete)}: {ex.Message}");
                 return BadRequest();
             }
         }

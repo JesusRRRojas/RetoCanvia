@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Serilog;
 
 namespace CanviaTest.WebApi
 {
@@ -21,6 +22,7 @@ namespace CanviaTest.WebApi
         public Startup(IConfiguration configuration)
         {
             this.configuration = configuration;
+            Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(configuration).CreateLogger();
         }
 
         public void ConfigureServices(IServiceCollection services)
