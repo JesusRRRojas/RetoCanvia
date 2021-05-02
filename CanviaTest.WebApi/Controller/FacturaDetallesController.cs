@@ -15,8 +15,8 @@ namespace CanviaTest.WebApi.Controller
     public class FacturaDetallesController : ControllerBase
     {
         private IFacturaDetalleRepositorio _facturaDetalleRepositorio;
-        private readonly ILogger<Factura_Detalle> _logger;
-        public FacturaDetallesController(IFacturaDetalleRepositorio facturaDetalleRepositorio, ILogger<Factura_Detalle> logger)
+        private readonly ILogger<FacturaDetallesController> _logger;
+        public FacturaDetallesController(IFacturaDetalleRepositorio facturaDetalleRepositorio, ILogger<FacturaDetallesController> logger)
         {
             _facturaDetalleRepositorio = facturaDetalleRepositorio;
             _logger = logger;

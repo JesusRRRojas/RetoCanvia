@@ -16,9 +16,9 @@ namespace CanviaTest.WebApi.Controller
     {
         private IClienteRepositorio _clienteRepositorio;
         private IFacturaRepositorio _facturaRepositorio;
-        private readonly ILogger<Cliente> _logger;
+        private readonly ILogger<ClientesController> _logger;
 
-        public ClientesController(IClienteRepositorio clienteRepositorio, IFacturaRepositorio facturaRepositorio, ILogger<Cliente> logger)
+        public ClientesController(IClienteRepositorio clienteRepositorio, IFacturaRepositorio facturaRepositorio, ILogger<ClientesController> logger)
         {
             _clienteRepositorio = clienteRepositorio;
             _facturaRepositorio = facturaRepositorio;

@@ -15,9 +15,9 @@ namespace CanviaTest.WebApi.Controller
     public class EmpleadosController : ControllerBase
     {
         private IEmpleadoRepositorio _empleadoRepositorio;
-        private readonly ILogger<Empleado> _logger;
+        private readonly ILogger<EmpleadosController> _logger;
 
-        public EmpleadosController(IEmpleadoRepositorio empleadoRepositorio, ILogger<Empleado> logger)
+        public EmpleadosController(IEmpleadoRepositorio empleadoRepositorio, ILogger<EmpleadosController> logger)
         {
             _empleadoRepositorio = empleadoRepositorio;
             _logger = logger;

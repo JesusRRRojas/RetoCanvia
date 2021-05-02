@@ -15,9 +15,9 @@ namespace CanviaTest.WebApi.Controller
     public class FacturasController : ControllerBase
     {
         private IFacturaRepositorio _facturaRepositorio;
-        private readonly ILogger<Factura> _logger;
+        private readonly ILogger<FacturasController> _logger;
 
-        public FacturasController(IFacturaRepositorio facturaRepositorio, ILogger<Factura> logger)
+        public FacturasController(IFacturaRepositorio facturaRepositorio, ILogger<FacturasController> logger)
         {
             _facturaRepositorio = facturaRepositorio;
             _logger = logger;
@@ -28,13 +28,22 @@ namespace CanviaTest.WebApi.Controller
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<IEnumerable<Factura>> Get()
         {
-            var res = _facturaRepositorio.Listar();
-            if (res == null)
+            try
             {
-                return NotFound();
-            }
+                var res = _facturaRepositorio.Listar();
+                if (res == null)
+                {
+                    return NotFound();
+                }
 
-            return res.ToList();
+                return res.ToList();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error en {nameof(Get)}: {ex.Message}");
+                return BadRequest();
+            }
+            
         }
 
 

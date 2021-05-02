@@ -15,13 +15,13 @@ namespace CanviaTest.WebApi.Controller
     public class CargosController : ControllerBase
     {
         private ICargoRepositorio _cargoRepositorio;
-        private readonly ILogger<Cargo> _logger;
+        private readonly ILogger<CargosController> _logger;
 
-        public CargosController(ICargoRepositorio cargoRepositorio, ILogger<Cargo> logger)
+        public CargosController(ICargoRepositorio cargoRepositorio, ILogger<CargosController> logger)
         {
             _cargoRepositorio = cargoRepositorio;
             _logger = logger;
-    }
+        }
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]

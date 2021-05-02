@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Data.OleDb;
+using System.Linq;
 using System.Text;
 
 namespace CanviaTest.Data.Repositorios
@@ -185,6 +186,17 @@ namespace CanviaTest.Data.Repositorios
             {
                 return new List<Producto>();
             }
+        }
+
+        public (int totalRegistros, IEnumerable<Producto> registros) ObtenerPaginas(int paginaActual, int registrosPorPagina)
+        {
+            var registros = Listar();
+
+            var totalRegistros = Listar().Count;
+
+            var registrosPaginado = registros.Skip((paginaActual - 1) * registrosPorPagina).Take(registrosPorPagina).ToList();
+
+            return (totalRegistros, registrosPaginado);
         }
     }
 }
