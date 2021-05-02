@@ -8,6 +8,6 @@ namespace CanviaTest.Models
     {
         public int IdCargo { get; set; }
         public string Descripcion { get; set; }
-        public string Descripcion_Detalle { get; set; }
+        public string Descripcion_Largo { get; set; }
     }
 }

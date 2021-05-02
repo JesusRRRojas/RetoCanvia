@@ -1,0 +1,9 @@
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Models\bin\Debug\netcoreapp3.1\CanviaTest.Models.deps.json
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Models\bin\Debug\netcoreapp3.1\CanviaTest.Models.dll
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Models\bin\Debug\netcoreapp3.1\CanviaTest.Models.pdb
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Models\obj\Debug\netcoreapp3.1\CanviaTest.Models.csprojAssemblyReference.cache
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Models\obj\Debug\netcoreapp3.1\CanviaTest.Models.AssemblyInfoInputs.cache
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Models\obj\Debug\netcoreapp3.1\CanviaTest.Models.AssemblyInfo.cs
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Models\obj\Debug\netcoreapp3.1\CanviaTest.Models.csproj.CoreCompileInputs.cache
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Models\obj\Debug\netcoreapp3.1\CanviaTest.Models.dll
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Models\obj\Debug\netcoreapp3.1\CanviaTest.Models.pdb

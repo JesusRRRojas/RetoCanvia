@@ -4,7 +4,11 @@ using System.Text;
 
 namespace CanviaTest.Models
 {
-    class Empleado
+    public class Empleado
     {
+        public int IdEmpleado { get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public int IdCargo { get; set; }
     }
 }

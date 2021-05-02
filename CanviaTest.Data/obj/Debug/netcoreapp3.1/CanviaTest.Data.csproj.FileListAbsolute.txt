@@ -1,0 +1,12 @@
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Data\bin\Debug\netcoreapp3.1\CanviaTest.Models.dll
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Data\obj\Debug\netcoreapp3.1\CanviaTest.Data.csprojAssemblyReference.cache
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Data\obj\Debug\netcoreapp3.1\CanviaTest.Data.AssemblyInfoInputs.cache
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Data\obj\Debug\netcoreapp3.1\CanviaTest.Data.AssemblyInfo.cs
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Data\bin\Debug\netcoreapp3.1\CanviaTest.Data.deps.json
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Data\bin\Debug\netcoreapp3.1\CanviaTest.Data.dll
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Data\bin\Debug\netcoreapp3.1\CanviaTest.Data.pdb
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Data\bin\Debug\netcoreapp3.1\CanviaTest.Models.pdb
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Data\obj\Debug\netcoreapp3.1\CanviaTest.Data.csproj.CoreCompileInputs.cache
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Data\obj\Debug\netcoreapp3.1\CanviaTest.Data.csproj.CopyComplete
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Data\obj\Debug\netcoreapp3.1\CanviaTest.Data.dll
+C:\Users\Jesus\Desktop\CANVIA\CanviaTest\CanviaTest.Data\obj\Debug\netcoreapp3.1\CanviaTest.Data.pdb
